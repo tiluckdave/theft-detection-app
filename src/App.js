@@ -48,7 +48,7 @@ function App() {
               style={{width: 400, height: 180, margin:0, padding: 0}}
               colors={['#5BE12C', '#F5CD19', '#EA4228']}
               arcWidth={0.2}
-              percent={current}
+              percent={current/1000}
               formatTextValue={value => value + ' mA'}
               />
               <h2>Current</h2>
