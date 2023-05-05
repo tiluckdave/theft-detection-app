@@ -48,6 +48,7 @@ function App() {
               style={{width: 400, height: 180, margin:0, padding: 0}}
               colors={['#5BE12C', '#F5CD19', '#EA4228']}
               arcWidth={0.2}
+              animDelay={0}
               percent={current/100}
               formatTextValue={value => value + ' mA'}
               />
@@ -61,6 +62,7 @@ function App() {
               marginInPercent={0.05}
               colors={['#5BE12C', '#F5CD19', '#EA4228']}
               arcWidth={0.2}
+              animDelay={0}
               percent={voltage/100}
               formatTextValue={value => value + ' V'}
               />
